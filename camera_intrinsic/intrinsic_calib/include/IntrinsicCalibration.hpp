@@ -15,7 +15,7 @@ public:
 
     bool Calibrate(const std::string &img_dir_path, 
                    const int &grid_size = 50, // in milimeter 50mm 
-                   const int &corner_width = 15, const int &corner_height = 17);
+                   const int &corner_width = 8, const int &corner_height = 6);
 
     // bool addSingleImage(const std::string &img_path);
 
